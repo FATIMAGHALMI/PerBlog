@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.SignInForm {
+    font-family: Familjen Grotesk;
+    width: 375px;
+    padding: 60px 30px 60px 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.SignInForm h2 {
+    margin-bottom: 40px;
+    margin-left: 45px;
+    color: #333;
+}
+
+.FormInput {
+    margin-bottom: 35px;
+}
+
+.FormInput label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+    font-weight: 700;
+}
+
+.FormInput input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.ForgotPassword {
+    margin-bottom: 15px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.ForgotPassword a {
+    color: #333;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #235EFF;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e4fc8;
+}
+
+.SignUpLink {
+    text-align: center;
+    font-size: 14px;
+}
+
+.SignUpLink a {
+    color: #235EFF;
+    font-weight: 700;
+    text-decoration: none;
+}
